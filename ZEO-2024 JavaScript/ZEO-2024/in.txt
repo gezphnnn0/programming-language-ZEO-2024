@@ -1,0 +1,108 @@
+
+announce strg fnct cons(byte b) 
+{
+	whilst(b > 1)
+	[
+	writeline "Hello, world";
+	b = b - 1;
+];
+return "Everything successfuly!";
+};
+
+main
+{
+announce strg res;
+res = cons(5);
+writeline "The result of function cons";
+writeline res;
+
+add byte fnct compare(strg a, strg b);
+add byte fnct absolute(byte a);
+
+announce byte resultCompare1;
+resultCompare1 = compare("str1","str");
+writeline "The result of comparing two string";
+writeline resultCompare1;
+
+announce byte comparement2;
+comparement2 = compare("str", "str1");
+writeline "The result of comparing two string";
+writeline comparement2;
+
+announce byte abs;
+abs = 0 - 2;
+announce byte do;
+do = absolute(abs);
+writeline "The result modul number";
+writeline do;
+
+announce char cr1;
+cr1 = 'G';
+writeline "The result symbol type";
+writeline cr1;
+
+announce byte absolutly;
+absolutly = 1 - 21 * 3 : 3 + absolute(abs);
+writeline "Output negative number";
+writeline absolutly;
+
+announce byte mod;
+mod = 5 % 2;
+writeline "The result mod two number";
+writeline mod;
+
+announce byte absol;
+absol = absolute(absolutly);
+writeline "The result of the modul return function";
+writeline absol;
+
+announce byte var;
+var = 28;
+announce byte gg;
+gg = 100;
+writeline "Output integer number";
+writeline gg;
+
+announce strg var1;
+var1 = "Hello, world";
+writeline "Output string";
+writeline var1;
+
+announce bool var4;
+if(var4)
+[
+	writeline "This variable is false";
+];
+
+var4 = true;
+writeline "Output result condition";
+if(var4)
+[
+	writeline "This variable is true";
+];
+
+announce byte var5;
+var5 = 1|2&3;
+writeline var5;
+announce byte var6;
+var6 = 1&~1;
+writeline var6;
+
+announce byte var7;
+var7 = 8/2;
+writeline "The result of shift left by 2";
+writeline var7;
+
+announce byte var8;
+var8 = 127\1;
+writeline "The result of shift right by 1";
+writeline var8;
+
+announce byte zero;
+announce byte name;
+name = 2;
+zero = 1 : (name - name);
+writeline zero;
+
+return 0;
+}

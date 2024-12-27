@@ -1,0 +1,9 @@
+﻿  CodeGeneration.cpp
+  Error.cpp
+  FST.cpp
+C:\Users\Konstantin\Desktop\ZEO-2024\ZEO-2024\FST.cpp(118,16): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+C:\Users\Konstantin\Desktop\ZEO-2024\ZEO-2024\FST.cpp(1262,12): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Konstantin\Desktop\ZEO-2024\ZEO-2024\FST.cpp(1268,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Konstantin\Desktop\ZEO-2024\ZEO-2024\FST.cpp(1565,18): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  GRB.cpp
+  In.cpp
